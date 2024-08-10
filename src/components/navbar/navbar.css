@@ -1,0 +1,162 @@
+.mainParentNavbar {
+    width: 100%;
+    height: 100px;
+    padding: 12px 80px 6px 80px;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+    background: #FFFFFF80;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+
+
+}
+
+.logoDiv {
+    display: flex;
+    flex-direction: row;
+
+    gap: 20px;
+    /* border: 2px solid green; */
+    width: 20%;
+    height: auto;
+    align-items: center;
+}
+
+.headerDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 60%;
+
+}
+
+.secondDiv {
+    /* width: 66%; */
+    height: fit-content;
+    gap: 10px;
+    opacity: 0px;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loginBtn {
+
+    font-size: 16px;
+    font-weight: 500;
+
+    color: #004AAC;
+    /* border: 2px solid black; */
+    padding: 12px 14px 12px 14px;
+
+
+}
+
+.demoBtn {
+    border: 1px solid #004AAC;
+    /* width: 171px; */
+    /* height: 43px; */
+    padding: 12px 24px 12px 24px;
+
+    border-radius: 44px;
+    text-align: center;
+
+
+}
+
+.contact {
+    padding: 12px 14px 12px 14px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.contactNumber {
+
+    font-size: 16px;
+    font-weight: 500;
+    /* line-height: 19.36px; */
+
+    color: #000000;
+
+}
+
+
+@media screen and (max-width: 910px) {
+    .mainParentNavbar {
+
+        padding: 12px 30px 6px 30px;
+    }
+
+    .loginBtn {
+        padding: 12px 10px 12px 10px;
+    }
+
+    .demoBtn {
+        padding: 12px 14px 12px 14px;
+    }
+
+    .contact {
+        padding: 12px 8px 12px 8px;
+    }
+}
+
+
+
+@media screen and (max-width: 742px) {
+    .mainParentNavbar {
+
+        padding: 12px 20px 6px 20px;
+    }
+
+    .loginBtn {
+        padding: 12px 8px 12px 8px;
+    }
+
+    .demoBtn {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .contact {
+        padding: 8px 6px 8px 6px;
+    }
+}
+
+
+@media screen and (max-width: 696px) {
+    .mainParentNavbar {
+
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 10px;
+        /* padding: 12px 30px 6px 30px; */
+    }
+
+    .headerDiv {
+        width: 100%;
+    }
+
+    .demoBtn {
+        padding: 8px 8px 8px 8px;
+    }
+
+    /* .loginBtn{
+    padding: 12px 10px 12px 10px;
+}
+
+.contact{
+    padding: 12px 8px 12px 8px;
+} */
+}
