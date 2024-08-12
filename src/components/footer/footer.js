@@ -56,20 +56,20 @@ function Footer() {
                             <div className='content height'>Connect Us</div>
                             <span className='iconsData'>
                               <span> 
-                                <img style={{maxWidth:"25px",maxHeight:"25px",objectFit:"contain"}} src="facebook_icon.png"/>
+                                <img style={{maxWidth:"25px",maxHeight:"25px",objectFit:"contain"}} src="facebook_icon.png" alt="facebook"/>
                               </span>
 
                               <span> 
-                                <img style={{maxWidth:"25px",maxHeight:"25px",objectFit:"contain"}} src="instagram_icon.png"/>
+                                <img style={{maxWidth:"25px",maxHeight:"25px",objectFit:"contain"}} src="instagram_icon.png" alt="instagram"/>
                               </span>
                               <span> 
-                                <img style={{maxWidth:"25px",maxHeight:"25px",objectFit:"contain"}} src="youtube_icon.png"/>
+                                <img style={{maxWidth:"25px",maxHeight:"25px",objectFit:"contain"}} src="youtube_icon.png" alt="youtube"/>
                               </span>
                               <span> 
-                                <img style={{maxWidth:"25px",maxHeight:"25px",objectFit:"contain"}} src="Frame 427322840.png"/>
+                                <img style={{maxWidth:"25px",maxHeight:"25px",objectFit:"contain"}} src="Frame 427322840.png" alt="twitter"/>
                               </span>
                               <span> 
-                                <img style={{maxWidth:"25px",maxHeight:"25px",objectFit:"contain"}} src="linkedin_icon.png"/>
+                                <img style={{maxWidth:"25px",maxHeight:"25px",objectFit:"contain"}} src="linkedin_icon.png" alt="linkdin"/>
                               </span>
                             </span>
                         </div>
