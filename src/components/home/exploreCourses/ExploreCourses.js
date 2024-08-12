@@ -20,8 +20,8 @@ function ExploreCourses() {
             style={{
                 cursor: 'pointer',
               padding: "10px 20x",
-              border: courseToggle == "videoTutorial" ? "none" :"1px solid #D8D8D8",
-              backgroundColor: (courseToggle == "videoTutorial"
+              border: courseToggle === "videoTutorial" ? "none" :"1px solid #D8D8D8",
+              backgroundColor: (courseToggle === "videoTutorial"
                 ? "#004AAC"
                 : "#fff"),
               borderRadius: "34px",
@@ -30,7 +30,7 @@ function ExploreCourses() {
           >
             <div
               className="font_16_regular"
-              style={{ color: courseToggle == "videoTutorial" ? "#FFF" :"#000", fontWeight: "600" }}
+              style={{ color: courseToggle === "videoTutorial" ? "#FFF" :"#000", fontWeight: "600" }}
             >
               Video Tutorial
             </div>
@@ -42,15 +42,15 @@ function ExploreCourses() {
             style={{
                 cursor: 'pointer',
               padding: "10px 20x",
-              backgroundColor: (courseToggle == "pdf" ? "#004AAC" : "#fff"),
-              border: courseToggle == "pdf" ? "none" :"1px solid #D8D8D8",
+              backgroundColor: (courseToggle === "pdf" ? "#004AAC" : "#fff"),
+              border: courseToggle === "pdf" ? "none" :"1px solid #D8D8D8",
               borderRadius: "34px",
             }}
             className="light_blue_background"
           >
             <div
               className="font_16_regular"
-              style={{ color: courseToggle == "pdf" ? "#FFF" :"#000", fontWeight: "600" }}
+              style={{ color: courseToggle === "pdf" ? "#FFF" :"#000", fontWeight: "600" }}
             >
               PDF/Ebook
             </div>
@@ -62,17 +62,17 @@ function ExploreCourses() {
             style={{
                 cursor: 'pointer',
               padding: "10px 20x",
-              backgroundColor: (courseToggle == "assignments"
+              backgroundColor: (courseToggle === "assignments"
                 ? "#004AAC"
                 : "#fff"),
-              border: courseToggle == "assignments" ? "none" :"1px solid #D8D8D8",
+              border: courseToggle === "assignments" ? "none" :"1px solid #D8D8D8",
               borderRadius: "34px",
             }}
             className="light_blue_background"
           >
             <div
               className="font_16_regular"
-              style={{ color: courseToggle == "assignments" ? "#FFF" :"#000", fontWeight: "600" }}
+              style={{ color: courseToggle === "assignments" ? "#FFF" :"#000", fontWeight: "600" }}
             >
               Assignments
             </div>
